@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>headerLinks}}
+</head>
+
+<body>
+    <!--============= ScrollToTop Section Starts Here =============-->
+    {{>scrollTop}}
+    <!--============= ScrollToTop Section Ends Here =============-->
+
+
+    <!--============= Header Section Starts Here =============-->
+    {{>header_last}}
+    <!--============= Header Section Ends Here =============-->
+
+    <!--============= Cart Section Starts Here =============-->
+    {{!-- {{>cart_last}} --}}
+    <!--============= Cart Section Ends Here =============-->
+
+
+    <!--============= Hero Section Starts Here =============-->
+    <div class="hero-section">
+        <div class="container">
+            <ul class="breadcrumb">
+                <!-- <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#0">Pages</a>
+                </li>
+                <li>
+                    <span>Sign Up</span>
+                </li> -->
+            </ul>
+        </div>
+        <div class="bg_img hero-bg bottom_center" data-background="assets/images/banner/hero-bg.png"></div>
+    </div>
+    <!--============= Hero Section Ends Here =============-->
+
+
+    <!--============= Account Section Starts Here =============-->
+    <section class="account-section padding-bottom">
+        <div class="container">
+            <div class="account-wrapper mt--100 mt-lg--440">
+                <div class="left-side">
+                    <div class="section-header">
+                        <h2 class="title">SIGN UP</h2>
+                        <p>We're happy you're here!</p>
+                    </div>
+                    {{!-- <ul class="login-with">
+                        <li>
+                            <a href="#0"><i class="fab fa-facebook"></i>Log in with Facebook</a>
+                        </li>
+                        <li>
+                            <a href="#0"><i class="fab fa-google-plus"></i>Log in with Google</a>
+                        </li>
+                    </ul> --}}
+                    {{!-- <div class="or">
+                        <span>Or</span>
+                    </div> --}}
+                    <form action="/about.html" method="POST" class="login-form">
+                        <div class="form-group mb-30">
+                            <label for="Name"><i class="far fa-user"></i></label>
+                            <input type="text" id="Name" name="name" value="" placeholder="Enter Name" autocomplete="off" required>
+                        </div>
+                        <div class="form-group mb-30">
+                            <label for="login-email"><i class="far fa-envelope"></i></label>
+                            <input type="text" id="login-email" name="email" value="" placeholder="Email Address" autocomplete="off" required>
+                        </div>
+                        <div class="form-group mb-30">
+                            <label for="login-pass"><i class="fas fa-lock"></i></label>
+                            <input type="password" id="login-pass" name="password" value="" placeholder="Password" autocomplete="off" required>
+                            {{!-- <span class="pass-type"><i class="fas fa-eye"></i></span> --}}
+                        </div>
+                        <div class="form-group mb-30">
+                            <label for="login-pass"><i class="fas fa-lock"></i></label>
+                            <input type="password" id="login-pass" name="cpassword" value="" placeholder="Confirm Password" required>
+                        </div>
+
+                        {{!-- <div class="form-group mb-30">
+                            <label for="login-pass"><i class="fas fa-file"></i></label>
+                            <input type="file" id="login-pass" name="file" value="" placeholder="File" required>
+                        </div> --}}
+                        <div class="form-group checkgroup mb-30">
+                            <input type="checkbox" name="terms" id="check" required><label for="check">Live Auction Terms</label>
+                        </div>
+                        <div class="flex justify-around">
+                                <div class="transform transition-duration-800 hover:scale-110">
+                                    <input type="radio" id="Customer" name="utype" value="Customer" checked>
+                                    <label for="Customer">Customer</label>
+                                </div>
+                                <div class="transform transition-duration-800 hover:scale-110">
+                                    <input type="radio" id="Vendor" name="utype" value="Vendor">
+                                    <label for="Vender">Vendor</label>
+                                </div>
+                        </div>
+                        <div class="form-group mb-0">
+                            <button type="submit" class="custom-button">SIGN UP</button>
+                        </div>
+                        <!-- radio button start here -->
+                    </form>
+                </div>
+                <div class="right-side cl-white">
+                    <div class="section-header mb-0">
+                        <h3 class="title mt-0">ALREADY HAVE AN ACCOUNT?</h3>
+                        <p>Log in and go to your Dashboard.</p>
+                        <a href="sign-in.html" class="custom-button transparent">LOG IN</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--============= Account Section Ends Here =============-->
+
+
+    <!--============= Footer Section Starts Here =============-->
+    {{>footer}}
+    <!--============= Footer Section Ends Here =============-->
+
+
+
+    {{>scriptLinks}}
+</body>
+</html>

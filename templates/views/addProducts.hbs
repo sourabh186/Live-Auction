@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>headerLinks}}
+</head>
+
+<body>
+    <!--============= ScrollToTop Section Starts Here =============-->
+    {{>scrollTop}}
+    <!--============= ScrollToTop Section Ends Here =============-->
+
+
+    <!--============= Header Section Starts Here =============-->
+    {{>header_last}}
+    <!--============= Header Section Ends Here =============-->
+
+    <!--============= Cart Section Starts Here =============-->
+    {{!-- {{>cart}} --}}
+    <!--============= Cart Section Ends Here =============-->
+
+
+    <!--============= Hero Section Starts Here =============-->
+    <div class="hero-section">
+        <div class="bg_img hero-bg bottom_center" data-background="assets/images/banner/hero-bg.png"></div>
+    </div>
+    <!--============= Hero Section Ends Here =============-->
+
+
+    <!--============= Account Section Starts Here =============-->
+    <section class="account-section padding-bottom">
+        <div class="container">
+            <div class="account-wrapper mt--100 mt-lg--440">
+                <div class="left-side">
+                    <div class="section-header">
+                        <h2 class="title text-gray-600">ADD , PRODUCT</h2>
+                        <p>Live auction is open for you all to sell your products.</p>
+                    </div>
+                    <!-- <ul class="login-with">
+                        <li>
+                            <a href="#0"><i class="fab fa-facebook"></i>Log in with Facebook</a>
+                        </li>
+                        <li>
+                            <a href="#0"><i class="fab fa-google-plus"></i>Log in with Google</a>
+                        </li>
+                    </ul> -->
+                    <!-- <div class="or">
+                        <span>Or</span>
+                    </div> -->
+                    <form class="login-form">
+                        <div class="form-group mb-30">
+                            <label for="Name"><i class="far fa-user"></i></i></label>
+                            <input type="text" id="Name" placeholder="Enter Name">
+                        </div>
+                        <div class="form-group mb-30">
+                            <label for="login-email"><i class="far fa-envelope"></i></label>
+                            <input type="text" id="login-email" placeholder="Email Address">
+                        </div>
+                        <div class="form-group">
+                            <label for="login-pass"><i class="fas fa-lock"></i></label>
+                            <input type="sel" id="login-pass" placeholder="Adhar Card No">
+                        </div>
+                        <div class="form-group">
+                            <label for="login-pass"><i class="far fa-images"></i></label>
+                            <input type="file" id="login-pass" placeholder="Add Images">
+                        </div>
+                        <div class="form-group">
+                            <label for="description"></label>
+                            <textarea id="description" name="description" rows="4" cols="50">
+                                Add complete detail about your product .
+                                1. Purchasing date.
+                                2. Year of buying.
+                                3. Main uses.
+                                4. All little little details.
+
+                                Also add Product video in working condition below.
+                            </textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="login-pass"><i class="fas fa-video"></i></label>
+                            <input type="file" id="login-pass" placeholder="Add video">
+                        </div>
+                        <!-- <div class="flex justify-around">
+                                <div class="transform transition-duration-800 hover:scale-110">
+                                    <input type="radio" id="Customer" name="User" value="Customer">
+                                    <label for="Customer">Customer</label>
+                                </div>
+                                <div class="transform transition-duration-800 hover:scale-110">
+                                    <input type="radio" id="Vendor" name="User" value="Customer">
+                                    <label for="Vender">Vendor</label>
+                                </div>
+                        </div>
+                        <div class="form-group">
+                            <a href="#0">Forgot Password?</a>
+                        </div> -->
+                        <div class="form-group mb-0">
+                            <button type="submit" class="custom-button">Add Now</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="right-side cl-white">
+                    <div class="section-header mb-0">
+                        <h3 class="title mt-0">Welcome , Here</h3>
+                        <p>Add your product easily with our easy and friendly interface , Auction your product on profitable prize</p>
+                        <!-- <a href="sign-up.html" class="custom-button transparent">Sign Up</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--============= Account Section Ends Here =============-->
+
+
+    <!--============= Footer Section Starts Here =============-->
+    {{>footer}}
+    <!--============= Footer Section Ends Here =============-->
+
+
+
+    {{>scriptLinks}}
+</body>
+</html>
